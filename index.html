@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Include stylesheet(s) -->
+        <link rel="stylesheet" href="./style/note.css">
+    </head>
+    <body class="yellow">
+        <!-- Display heading -->
+        <h1 class="handwriting">CAN'T WAIT TO-DO LIST</h1>
+
+        <!-- Accept to-do as input -->
+        <div class="input">
+            <form id="inputBar" action="/list">
+                <input id="textBar" type="text" name="todoItem" placeholder="Whatchu wanna do today?">
+                <button class="circle">+</button>
+            </form>
+        </div>
+
+        <!-- Display all to-do's -->
+        <div class="display">
+            <ol>
+            </ol>
+        </div>
+
+        <!-- Include script(s) -->
+        <script src="./src/functions.js"></script>
+    </body>
+</html>

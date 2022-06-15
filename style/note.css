@@ -1,0 +1,51 @@
+/* Body */
+.yellow {
+    background-color: yellow;
+}
+
+/* Heading */
+.handwriting {
+    font-family:fantasy;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Input */
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+#inputBar {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-family: fantasy;
+    padding: 1cm;
+    font-size: medium;
+}
+
+#textBar {
+    width: 80%;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 5%;
+    height: 100%;
+    background-color: greenyellow;
+    color: blue;
+    border-color: white;
+}
+
+/* Display */
+.display {
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    padding: 1cm;
+    font-size: medium;
+}
