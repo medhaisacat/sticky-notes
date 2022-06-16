@@ -1,7 +1,7 @@
-var form = document.querySelector('form');
+const form = document.querySelector('form');
 const list = document.querySelector('ol');
 const text = document.querySelector('#textBar');
-var preview = document.querySelector('#preview');
+const preview = document.querySelector('#preview');
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -28,3 +28,18 @@ function appendToDisplay(text) {
     note.classList = "inputBar"
     list.appendChild(note);
 }
+
+list.addEventListener('click', (event) => {
+    if(event.target.nodeName === 'INPUT') {
+        strikeOutText(event.target.parentElement);
+    }
+})
+
+function strikeOutText(text) {
+    let strike = document.createElement('del');
+
+    list.removeChild(text);
+    list.appendChild(strike);
+    strike.appendChild(text);
+}
+
