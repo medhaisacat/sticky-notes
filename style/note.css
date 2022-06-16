@@ -39,6 +39,8 @@ h1 {
     background-color: greenyellow;
     color: blue;
     border-color: white;
+    display: flex;
+    justify-content: center;
 }
 
 /* Display */

@@ -1,0 +1,27 @@
+{
+  "name": "sticky-notes",
+  "version": "1.0.0",
+  "description": "Awesome sticky notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medhasn/sticky-notes.git"
+  },
+  "keywords": [
+    "awesome",
+    "todo",
+    "list",
+    "notes",
+    "yellow",
+    "really-good"
+  ],
+  "author": "Medha S N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medhasn/sticky-notes/issues"
+  },
+  "homepage": "https://github.com/medhasn/sticky-notes#readme"
+}
