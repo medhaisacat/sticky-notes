@@ -43,3 +43,5 @@ function strikeOutText(text) {
     strike.appendChild(text);
 }
 
+
+
